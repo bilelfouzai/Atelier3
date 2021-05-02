@@ -1,4 +1,4 @@
-package com.nadhem.produits.restControllers;
+package com.bilel.produits.restControllers;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import com.nadhem.produits.entities.Produit;
-import com.nadhem.produits.service.ProduitService;
+import com.bilel.produits.entities.Produit;
+import com.bilel.produits.service.ProduitService;
 
 
 @RestController
