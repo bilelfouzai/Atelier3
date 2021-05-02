@@ -1,4 +1,4 @@
-package com.nadhem.produits.repos;
+package com.bilel.produits.repos;
 
 
 import java.util.List;
@@ -9,8 +9,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-import com.nadhem.produits.entities.Categorie;
-import com.nadhem.produits.entities.Produit;
+import com.bilel.produits.entities.Categorie;
+import com.bilel.produits.entities.Produit;
 
 @RepositoryRestResource(path = "rest")
 public interface ProduitRepository extends JpaRepository<Produit, Long> {
