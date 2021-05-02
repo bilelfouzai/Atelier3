@@ -1,11 +1,11 @@
-package com.nadhem.produits.service;
+package com.bilel.produits.service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 
-import com.nadhem.produits.entities.Categorie;
-import com.nadhem.produits.entities.Produit;
+import com.bilel.produits.entities.Categorie;
+import com.bilel.produits.entities.Produit;
 
 public interface ProduitService {
 	
