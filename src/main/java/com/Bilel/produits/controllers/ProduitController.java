@@ -1,4 +1,4 @@
-package com.nadhem.produits.controllers;
+package com.bilel.produits.controllers;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.nadhem.produits.entities.Produit;
-import com.nadhem.produits.service.ProduitService;
+import com.bilel.produits.entities.Produit;
+import com.bilel.produits.service.ProduitService;
 
 @Controller
 public class ProduitController {
