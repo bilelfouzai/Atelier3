@@ -1,4 +1,4 @@
-package com.nadhem.produits.service;
+package com.bilel.produits.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,9 +7,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.nadhem.produits.entities.Categorie;
-import com.nadhem.produits.entities.Produit;
-import com.nadhem.produits.repos.ProduitRepository;
+import com.nadhem.bilel.entities.Categorie;
+import com.nadhem.bilel.entities.Produit;
+import com.nadhem.bilel.repos.ProduitRepository;
 
 @Service
 public class ProduitServiceImpl implements ProduitService {
